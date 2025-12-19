@@ -1,0 +1,84 @@
+Body { 
+    background-color: #63927a;
+    font-style: italic;
+    font-family: , Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    color: rgb(12, 31, 16);
+}
+
+h1 {
+    color: rgb(3, 14, 9);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.objetivo {
+    background-color: #255f56;
+    padding: 15px;
+    margin-bottom: 30px;
+    border-left: 4px solid #144736;
+}
+  
+.area-entrada {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#inputTarefa {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #5f565b;
+    font-size: 16px;
+}
+
+.btnListaTarefas {
+    padding: 10px 20px;
+    background-color: #30888d;
+    color: rgb(29, 54, 22);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btnListaTarefas:hover {
+    background-color: #06b8a0;
+}
+
+#listaTarefas {
+    list-style: none;
+    padding: 0;
+    color:whi ;
+}
+
+.item-tarefa {
+    background-color: #5d867b;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+      
+.divLixeira {
+    display: flex;
+    gap: 5px;
+}
+   
+.divTarefas{
+    background-color: #97d4b3;
+    border: 1px solid #ffffff;
+    padding: 15px 15px;
+}
+.divBtn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btnLixeira{
+    width: 20px;
+    cursor: pointer;
+}    
